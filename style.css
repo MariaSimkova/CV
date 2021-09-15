@@ -1,5 +1,6 @@
 h1 {
     color: #B96A77;
+    margin-top: 20px;
 }
 
 h2 {
@@ -13,28 +14,42 @@ h3 {
 }
 
 header {
-    background-color: ;
+    background-image: url(photo/back.jpg);
     text-align: center;
-    margin-top:75px;
-    margin-bottom: 75px;
+    padding-top:75px;
+    padding-bottom: 75px;
 }
 
 .header img {
     border-radius: 50%;
 }
 
+.col-8 {
+    border-left: solid;
+    border-width: thin;
+    padding-left: 50px;
+}
+
 .row {
-    margin-bottom: 50px;
+    padding-top: 50px;
 }
 
 .Profile {
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
 }
 
 .PersonalInfo {
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
 }
 
 .Skills {
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #B96A77;
 }
