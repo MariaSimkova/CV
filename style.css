@@ -4,14 +4,37 @@ h1 {
 
 h2 {
     color: #dc9428;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 header {
+    background-color: ;
     text-align: center;
     margin-top:75px;
     margin-bottom: 75px;
 }
 
-.Profile img {
+.header img {
     border-radius: 50%;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+.Profile {
+    margin-bottom: 50px;;
+}
+
+.PersonalInfo {
+    margin-bottom: 50px;;
+}
+
+.Skills {
+    margin-bottom: 50px;;
 }
