@@ -1,54 +1,87 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    }
+
+    h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    }
+
+h4 {
+    font-family: 'WindSong', cursive;
+    padding-top: 40px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: regular;
+}
+
 h1 {
-    color: white;
-    padding-top: 35px;
+    /* font-weight: bold; */
+    font-size: 50px;
+    padding-bottom: 20px;
+    border-bottom: solid;
+    border-color: #B96A77;
+    border-width: 1px;
 }
 
 h2 {
     color: #dc9428;
+    font-weight: 375;
     margin-bottom: 20px;
 }
 
 h3 {
-    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #B96A77;
     margin-bottom: 15px;
 }
 
+#header_name p {
+    font-family: 'Montserrat', sans-serif;
+    /* color: #dc9428; */
+    font-weight: thin;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
 footer {
-    color: #dc9428;
+    color: white;
     padding-left: 90px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
+    background-color: #d9c1bf;
 }
 
 #header_row {
-    background-image: url(photo/background.jpg);
+    /* background-image: url(photo/background.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background: cover;
+    background-position: top;
+    background-size: cover; */
     text-align: left;
 }
 
 #header_img img {
     border-radius: 50%;
-    float:right;
-}
-
-#header_img {
-    padding-right: 0;
+    padding: 10px;
 }
 
 #header_name {
     border: none;
 }
 
-#header_name p {
-    color: white;
-}
-
 .col-sm-4 {
     padding-top: 50px;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     padding-left: 70px;
+}
+
+.col-sm-8 {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 100px;
 }
 
 .col-12 {
@@ -57,12 +90,13 @@ footer {
     border: none;
 }
 
-.col-sm-8 {
+.col-md-4 {
+    margin-bottom: 80px;
+}
+.col-md-8 {
     border-left: solid;
     border-width: thin;
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 100px;
+    margin-bottom: 80px;
 }
 
 .container {
@@ -87,5 +121,14 @@ a {
 }
 
 a:hover {
-    color: #B96A77;
+    color: #dc9428;
+}
+
+.year {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+}
+
+.company_university {
+    font-weight:bold;
 }
