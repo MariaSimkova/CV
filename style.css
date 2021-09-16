@@ -1,6 +1,8 @@
+
 body {
     font-family: 'Lora', serif;
     margin: 0;
+    color: #211A1D;
     }
 
     h1, h2 {
@@ -9,16 +11,7 @@ body {
     text-transform: uppercase;
     }
 
-h4 {
-    font-family: 'WindSong', cursive;
-    padding-top: 40px;
-    margin-bottom: 0;
-    font-size: 40px;
-    font-weight: regular;
-}
-
 h1 {
-    /* font-weight: bold; */
     font-size: 50px;
     padding-bottom: 20px;
     border-bottom: solid;
@@ -36,7 +29,16 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #B96A77;
+    margin-top: 50px;
     margin-bottom: 15px;
+}
+
+h4 {
+    font-family: 'WindSong', cursive;
+    padding-top: 40px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: regular;
 }
 
 #header_name p {
@@ -47,26 +49,21 @@ h3 {
     padding-top: 20px;
 }
 
-footer {
-    color: white;
-    padding-left: 90px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    background-color: #d9c1bf;
-}
-
 #header_row {
     /* background-image: url(photo/background.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover; */
     text-align: left;
+    /* background-color: rgba(216, 191, 216, 0.185);
+    padding-bottom: 30px; */
 }
 
 #header_img img {
-    border-radius: 50%;
-    padding: 10px;
+    border-radius:100%;
+    padding: 20px;
 }
+
 
 #header_name {
     border: none;
@@ -124,11 +121,17 @@ a:hover {
     color: #dc9428;
 }
 
-.year {
+.company_university {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 40px;
 }
 
-.company_university {
-    font-weight:bold;
+footer {
+    color: white;
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #d9c1bf;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
 }
