@@ -41,7 +41,7 @@ h4 {
     font-weight:normal;
 }
 
-#header_name p {
+.header p {
     font-family: 'Montserrat', sans-serif;
     /* color: #dc9428; */
     font-weight:normal;
@@ -49,24 +49,19 @@ h4 {
     padding-top: 20px;
 }
 
-#header_row {
-    /* background-image: url(photo/background.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover; */
-    text-align: left;
-    /* background-color: rgba(216, 191, 216, 0.185);
-    padding-bottom: 30px; */
-}
-
-#header_img img {
+.header_img img {
     border-radius:100%;
     padding: 20px;
 }
 
 
-#header_name {
+.header_name {
     border: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col-sm-4 {
@@ -101,15 +96,20 @@ h4 {
     margin: 50px;
 }
 
-.Profile {
+.skills li,
+.education li {
+    padding-bottom: 15px;
+}
+
+.profile {
     margin-bottom: 50px;
 }
 
-.PersonalInfo {
+.personal_info {
     margin-bottom: 50px;
 }
 
-.Skills {
+.skills {
     margin-bottom: 50px;
 }
 
